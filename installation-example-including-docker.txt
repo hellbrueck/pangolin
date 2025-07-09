@@ -1,6 +1,4 @@
-(base) hellbruh@vpn-192-168-66-45 newt % ssh root@pangolin.th-luebeck.me
-^C
-(base) hellbruh@vpn-192-168-66-45 newt % ssh root@91.99.53.26           
+(base) hellbruh@vpn-192-168-66-45 newt % ssh root@<myserver>
 Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-60-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
