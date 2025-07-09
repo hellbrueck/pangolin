@@ -1,4 +1,7 @@
-(base) hellbruh@vpn-192-168-66-45 newt % ssh root@<myserver>
+login to server where pangolin will be installed
+
+```
+% ssh root@<myserver>
 Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-60-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -25,6 +28,12 @@ The list of available updates is more than a week old.
 To check for new updates run: sudo apt update
 
 Last login: Tue Jul  1 06:56:23 2025 from 193.175.120.37
+root@ubuntu-4gb-nbg1-tunnel:~# 
+```
+
+make directory pangolin and download pangolin installer
+
+```
 root@ubuntu-4gb-nbg1-tunnel:~# pwd
 /root
 root@ubuntu-4gb-nbg1-tunnel:~# mkdir pangolin
@@ -48,6 +57,12 @@ installer                            100%[======================================
 
 root@ubuntu-4gb-nbg1-tunnel:~/pangolin# ls
 installer
+root@ubuntu-4gb-nbg1-tunnel:~/
+```
+
+start installer and set basic configuration according to https://www.youtube.com/watch?v=sXuUODTQekI
+
+```
 root@ubuntu-4gb-nbg1-tunnel:~/pangolin# ./installer 
 
 === Basic Configuration ===
@@ -283,5 +298,4 @@ Installation complete!
 
 To complete the initial setup, please visit:
 https://pangolin.th-luebeck.me/auth/initial-setup
-
-
+```
